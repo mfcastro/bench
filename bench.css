@@ -3,6 +3,7 @@
   width: 90%;
   min-height: 20em;
   background: lightgray;
+  margin-bottom: 20px;
 }
 .toolkit.custom-state-active {
   background: #eee;
@@ -15,9 +16,8 @@
 }
 #workbench {
   clear: both;
-  float: left;
   width: 90%;
-  min-height: 30em;
+  min-height: 500px;
   padding: 1%;
 }
 #workbench h4 {

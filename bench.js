@@ -94,7 +94,7 @@
     function recycleImage( $item ) {
 
       $item.fadeOut(function() {
-        $item.addClass("draggable").removeClass("ui-sortable-handle")
+        $item//.addClass("draggable").removeClass("ui-sortable-handle")
         //   .find( "a.ui-icon-refresh" )
         //     .remove()
         //   .end()
