@@ -1,4 +1,4 @@
-
+``
 
 
       $(document).ready(function(){
@@ -9,13 +9,15 @@
 
 
     // Let the gallery items be draggable
-    $( "li", $toolkit ).draggable({
+   // $( "li", $toolkit ).draggable({
       //cancel: "a.ui-icon", // clicking an icon won't initiate dragging
-      revert: "invalid", // when not dropped, the item will revert back to its initial position
-      containment: "document",
-      helper: "clone",
-      cursor: "move"
-    });
+      //revert: "invalid", // when not dropped, the item will revert back to its initial position
+      //containment: "document",
+     // helper: "clone",
+      //cursor: "move"
+    //});
+
+
 
 
 
@@ -73,7 +75,7 @@
 
        // $item.find( "a.ui-icon-trash" ).remove();
         
-        $item.addClass("resizable")
+        $item.removeClass("draggable ui-draggable ui-draggable-handle")
         //.append( recycle_icon )
         .appendTo( $list ).fadeIn(function() {
           $item
@@ -92,7 +94,7 @@
     function recycleImage( $item ) {
 
       $item.fadeOut(function() {
-        $item//.addClass("addthisclass")
+        $item.addClass("draggable").removeClass("ui-sortable-handle")
         //   .find( "a.ui-icon-refresh" )
         //     .remove()
         //   .end()
@@ -165,9 +167,9 @@ $(".resizable").resizable({
 
 
 
-$("#sortable").sortable({
+$(".sortable").sortable({
   //placeholder: '.drop'
 });
-$("#sortable").disableSelection();
+$(".sortable").disableSelection();
   
  });
