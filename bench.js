@@ -103,6 +103,7 @@
         //  .find( "img" )
         //    .css( "height", "72px" )
           //.end()
+          //.addClass()
           .appendTo( $toolkit )
            
           .fadeIn()
