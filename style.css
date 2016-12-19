@@ -1,0 +1,28 @@
+.box {
+  height: 100px;
+  width: 100px;
+}
+.redBox {
+  background: red;
+}
+.blueBox {
+  background: blue;
+}
+.greenBox {
+  background: green;
+}
+.yellowBox {
+  background: yellow;
+}
+.myTable {
+  height: 1000px;
+  width: 1000px;
+  border: 1px solid black;
+}
+.myTable tr td {
+  border: 1px dashed blue;
+}
+.dropped {
+  background: #ffff66;
+  border: 1px solid black;
+}

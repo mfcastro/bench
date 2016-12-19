@@ -1,0 +1,52 @@
+#toolkit {
+  float: left;
+  width: 90%;
+  min-height: 20em;
+  background: lightgray;
+}
+.toolkit.custom-state-active {
+  background: #eee;
+}
+.toolkit li {
+  float: left;
+  width: 96px;
+  margin: 0 0.4em 0.4em 0;
+  text-align: center;
+}
+#workbench {
+  clear: both;
+  float: left;
+  width: 90%;
+  min-height: 30em;
+  padding: 1%;
+}
+#workbench h4 {
+  line-height: 16px;
+  margin: 0 0 0.4em;
+}
+#workbench h4 .ui-icon {
+  float: left;
+}
+.box {
+  min-height: 150px;
+  min-width: 150px;
+  background: white;
+  float: left;
+  margin: 15px 10px 5px 10px;
+  z-index: 5;
+}
+#box1_header {
+  background: red;
+}
+#box2_header {
+  background: yellow;
+}
+#box3_header {
+  background: blue;
+}
+#box4_header {
+  background: green;
+}
+.red {
+  background: red;
+}
